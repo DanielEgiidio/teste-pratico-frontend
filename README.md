@@ -33,7 +33,7 @@ Este projeto é uma aplicação frontend desenvolvida como parte de um teste pr�
 
 - Date-fns: Biblioteca para manipulação de datas.
 
-- use-debounce: Hook para debounce de funções.
+- use-debounce: Hook para melhorar o filtro de buscas de funcionários.
 
 
 #### 🚀 Como Executar
