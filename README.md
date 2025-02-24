@@ -6,7 +6,7 @@ Este projeto é uma aplicação frontend desenvolvida como parte de um teste pr�
 
 ### 📌 Sobre o Projeto
 
-####### O objetivo deste projeto é demonstrar habilidades em desenvolvimento frontend, incluindo:
+###### O objetivo deste projeto é demonstrar habilidades em desenvolvimento frontend, incluindo:
 
 - Consumo de API: A aplicação faz requisições HTTP para uma API simulada com JSON Server.
 
