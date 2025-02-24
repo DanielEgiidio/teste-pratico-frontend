@@ -122,7 +122,11 @@ describe("Componente UserTable", () => {
     render(<UserTable />);
 
     await waitFor(() => {
-      expect(screen.getByText("Failed to load users")).toBeInTheDocument();
+      expect(
+        screen.getByText((content) =>
+          content.includes("Falha ao cerregar funcionários")
+        )
+      ).toBeInTheDocument();
     });
   });
 
