@@ -44,7 +44,7 @@ Como a aplicação foi feita utilizando a versão 19 do react e algumas bibliote
 ```bash
 git clone https://github.com/DanielEgiidio/teste-pratico-frontend
 ```
-**2. ** **Instale as dependências**
+**2.** **Instale as dependências**
 ```bash
 npm install --legacy-peer-deps
 ```
