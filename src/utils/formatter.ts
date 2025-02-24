@@ -1,8 +1,12 @@
 import { format } from "date-fns";
 
-// Utils para lidar com datas no padrão brasileiro
-export const formatDate = (date: string): string => {
-  return format(new Date(date), "dd/MM/yyyy");
+export const formatDate = (dateString: string): string => {
+  const date = new Date(dateString);
+  //UTC para evitar problemas de fuso horário
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const year = date.getUTCFullYear();
+  return `${day}/${month}/${year}`;
 };
 
 // Utils para lidar com número de celulares no padrão brasileiro

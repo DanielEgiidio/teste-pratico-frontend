@@ -24,7 +24,7 @@ export const UserTable = () => {
         setUsers(response.data);
         setLoading(false);
       } catch (err) {
-        setError("Failed to load users");
+        setError("Falha ao cerregar funcionários");
         setLoading(false);
       }
     };
